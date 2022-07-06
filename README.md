@@ -1,0 +1,1 @@
+# konato_real-estate
