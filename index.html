@@ -5,7 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Konato-Real-estate</title>
   </head>
-  <body></body>
+  <body>
+    <!-- NAVBAR -->
+    <header class="header">
+      <nav class="navbar layout">
+        <div class="navbar_left auto-flex">
+          <a href="#" class="bar"><h1>Konato</h1></a>
+          <ul class="navbar_left-links auto-flex">
+            <li class="navbar_left-links_link"><a href="#">Home</a></li>
+            <li class="navbar_left-links_link"><a href="#">Property</a></li>
+            <li class="navbar_left-links_link"><a href="#">About</a></li>
+            <li class="navbar_left-links_link"><a href="#">Blog</a></li>
+            <li class="navbar_left-links_link"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar_right auto-flex">
+          <div class="navbar_right-phone auto-flex">
+            <h3 class="navbar_right-phone_text">Call Us:</h3>
+            <h3 class="navbar_right-phone_no">+92 (315) 4954548</h3>
+          </div>
+          <button class="btn nav_right-btn">Sign in</button>
+        </div>
+        <div class="navbar_menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- SEARCHBAR -->
+    <section class="search__bar auto-flex">
+      <div class="search__bar-engine auto-flex">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input
+          type="text"
+          placeholder="Enter Keyword..."
+          class="search__bar-engine__input"
+        />
+      </div>
+      <!-- DROP DOWN START -->
+      <ul class="search__bar-drops">
+        <!-- SINGLE MENU START -->
+        <li class="search__bar-drops_drop-rent auto-flex">  
+            <h5>Rent</h5>
+            <i class="fa-solid fa-angle-down"></i>
+            <div class="drop">
+              <li>Rent 1</li>
+              <li>Rent 2</li>
+              <li>Rent 3</li>
+              <li>Rent 4</li>
+              <li>Rent 5</li>
+            </div>
+          </li>
+        <!-- SINGLE MENU END -->
+        <li class="search__bar-drops_drop-rent auto-flex">  
+            <i class="fa-regular fa-stretcher"></i>
+            <h5>Bed</h5>
+            <li>Rent 1</li>
+            <li>Rent 2</li>
+            <li>Rent 3</li>
+            <li>Rent 4</li>
+            <li>Rent 5</li>
+          </li>
+        <!-- SINGLE MENU END -->
+        <li class="search__bar-drops_drop-rent auto-flex">  
+            <i class="fa-solid fa-bath"></i>
+            <h5>Bath</h5>
+            <li>Rent 1</li>
+            <li>Rent 2</li>
+            <li>Rent 3</li>
+            <li>Rent 4</li>
+            <li>Rent 5</li>
+          </li>
+        <!-- SINGLE MENU END -->
+      </ul>
+      <!-- DROP DOWN END -->
+    </section>
+    <script src="/javascript/main.js"></script>
+  </body>
 </html>
